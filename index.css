@@ -10,7 +10,7 @@
 .encabezado, .menudecontenido  {
 	background-color: #00008B;
 	width: 80%;
-	max-width: 1000;
+	max-width: 1000px;
 	padding: 10px;
 	margin: 20px auto;
 	}
@@ -18,7 +18,7 @@
 .encabezado {
 	
 	border-color:rgb(196, 14, 14);
-	border-width: 10;
+	border-width: 10px;
 	border-style: solid;
 }
 
@@ -62,7 +62,7 @@
 
 }
 
-#opcion :hover {
+#opcion:hover {
 	background-color:rgba(127, 129, 228, 0.8) ;
 	transition: background-color 2s;
 }
