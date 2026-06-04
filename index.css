@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fondopagina {
+	background-color: rgba(65, 194, 236, 0.568);
+}
+
+.encabezado, .menudecontenido  {
+	background-color: #00008B;
+	width: 80%;
+	max-width: 1000;
+	padding: 10px;
+	margin: 20px auto;
+	}
+
+.encabezado {
+	
+	border-color:rgb(196, 14, 14);
+	border-width: 10;
+	border-style: solid;
+}
+
+#logotexto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#TITULOPRINCIPAL{
+	text-align: center;
+}
+
+.E {
+	color: rgba(255, 0, 0, 0.8);
+	font-family: Monotype Corsiva;
+}
+
+ .PRO {
+ 	color:#ff0000;
+
+ }
+
+ .MENUDEOPCIONES {
+	background-color: #001fac;
+	overflow: hidden;
+ }
+
+ #opcion {
+	background-color:#001fac ;
+	list-style: none;
+	float: right;
+ }
+
+ #enlaces {
+	padding: 10px 20px;
+	display: block;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+}
+
+#opcion :hover {
+	background-color:rgba(127, 129, 228, 0.8) ;
+	transition: background-color 2s;
+}
